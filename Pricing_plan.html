@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Pricing_plan.css">
+    <script src="Pricing_plan.js"></script>
+    
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="Pricing_plan.html">Home</a></li>
+                <li><a href="Pricingtable.html">Plan Table</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<h1><b>SELECT A PLAN</b></h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <table class="table plan-table">
+        <caption>
+          Standard Plan
+          <input type="radio" name="plan-selector" id="pro-radio" class="plan-select-radio" />
+        </caption>
+        <thead>
+          <tr>
+            <th>Features</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Basic features</td>
+            <td>$9.99/month</td>
+          </tr>
+          <tr>
+            <td>Unlimited access</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Ad-supported</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Mobile Access</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Limited Offline Downloads</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Customizable Playlists</td>
+            <td>✔</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-4">
+      <table class="table plan-table">
+        <caption>
+          Pro Plan
+          <span class="recommended-badge">Recommended</span
+          ><input type="radio" name="plan-selector" class="plan-select-radio" />
+        </caption>
+        <thead>
+          <tr>
+            <th>Features</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>All standard features</td>
+            <td>$19.99/month</td>
+          </tr>
+          <tr>
+            <td>No ads</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>High-quality streaming</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Family Sharing</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Early Access</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Multiple Device Support</td>
+            <td>✔</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-4">
+      <table class="table plan-table">
+        <caption>
+          Premium Plan
+          <input type="radio" name="plan-selector" class="plan-select-radio" />
+        </caption>
+        <thead>
+          <tr>
+            <th>Features</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>All pro features</td>
+            <td>$29.99/month</td>
+          </tr>
+          <tr>
+            <td>Unlimited devices</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Ultra HD(4K) Streaming</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Unlimited Offline Downloads</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>VIP Customer Support</td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Access To Live Events</td>
+            <td>✔</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <button class="signup-button" onclick="redirectUser()">Sign Up</button>
+</div>
+
+
+    
+</body>
+</html>

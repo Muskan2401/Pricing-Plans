@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plan Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Pricing_plan_form.css">
+    <script src="Pricing_plan_form.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="Pricing_plan.html">Home</a></li>
+                <li><a href="Pricingtable.html">Pricing Table</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div class="heading">
+        <h1 style="color: #007bff;" id="detailsHeading" >Enter Details</h1>
+      </div>
+      <form id="myForm">
+        <label for="Name" class="form-label required">Name:</label>
+        <input type="text" id="Name" required/>
+        <label for="Credit_no" class="form-label required"> Credit Card Number:</label>
+          <input type="text" id="Credit_no" required pattern="[1-9][0-9]{3}-[0-9]{4}-[0-9]{4}"/>
+          <button type="button" onclick="submitForm()">Submit</button></form>
+          <span class="error-message" id="error">Please enter all fields</span>
+          <span class="error-message" id="error2">Please enter valid Credit card number</span>
+    
+</body>
+</html>
+
+   
+    

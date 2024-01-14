@@ -1,0 +1,34 @@
+body {
+    background-color: aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: blueviolet; 
+  }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+table th, table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+   
+}
+table td{
+    background-color: aqua;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+
+table tr:hover td {
+    background-color: #f2f2f2;
+}
